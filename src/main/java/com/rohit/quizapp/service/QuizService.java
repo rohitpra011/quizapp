@@ -59,7 +59,6 @@ public class QuizService {
             if (response.getResponse().equals(questions.get(i).getRightAnswer())) {
                 right++;
                 i++;
-
             }
         }
         return new ResponseEntity<>(right,HttpStatus.OK);
