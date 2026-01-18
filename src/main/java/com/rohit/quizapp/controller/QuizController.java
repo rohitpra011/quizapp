@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("quiz")
-public class quizController {
+public class QuizController {
     @Autowired
     QuizService quizService;
     @PostMapping("create")

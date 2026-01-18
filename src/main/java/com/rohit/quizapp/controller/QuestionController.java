@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/question")
-public class questionController {
+public class QuestionController {
 
     @Autowired
     QuestionService questionService;
